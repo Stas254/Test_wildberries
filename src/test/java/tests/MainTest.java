@@ -3,6 +3,7 @@ package tests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import static java.lang.Thread.sleep;
 
 
@@ -49,4 +50,3 @@ public class MainTest extends BasicTest {
         Assertions.assertEquals(basketPageService.getNewPricesProdInBasketList(), basketPageService.getVisibleSumInBasket());
     }
 }
-

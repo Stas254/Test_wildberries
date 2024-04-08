@@ -3,6 +3,7 @@ package tests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import wildberries.ServiceBasketPage;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,4 +54,3 @@ public class BasketPageService extends BasicTest {
         return res_;
     }
 }
-

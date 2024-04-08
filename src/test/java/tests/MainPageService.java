@@ -79,4 +79,3 @@ public class MainPageService extends BasicTest {
         return this;
     }
 }
-
